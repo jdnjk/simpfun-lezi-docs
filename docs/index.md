@@ -22,7 +22,7 @@ features:
   - icon: 📖
     title: 炸天帮孙悟空
     details: 顶级助攻，不接受反驳
-    link: /article/炸天帮孙悟空传
+    link: /article/炸天帮孙悟空传.html
     linkText: 点击阅读
 ---
 
