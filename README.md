@@ -11,11 +11,13 @@
 
 ##### 🚀 查看乐子
 
-[bro 点击这里可以跳转官网](https://lezi.simpfun.lol)
+[bro 点击这里可以直接飞到乐子导航](https://lezi.simpfun.lol)
 
 ##### 🤝 提交新乐子
 
 bro 去 issue 里面提交吧 别 pr 了
+
+当然你如果选择 pr 我也不拦你(顺便还帮我省了点时间去整理)
 
 ##### 📝 许可证
 
@@ -27,4 +29,4 @@ bro 去 issue 里面提交吧 别 pr 了
 
 #### 说明
 
-版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+该导航模板来自 [maomao](https://github.com/maomao1996) 版权声明：<https://github.com/maomao1996/vitepress-nav-template>

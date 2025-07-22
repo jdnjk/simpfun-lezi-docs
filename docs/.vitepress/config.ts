@@ -41,7 +41,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/YuHan1015/simpfun-lezi-docs' }],
 
     footer: {
-      message: '如有转载或 CV 的请标注本站原文地址',
+      message: 'https://github.com/YuHan1015/simpfun-lezi-docs/',
       copyright: 'Copyright © 2019-present maomao',
     },
 
@@ -51,6 +51,14 @@ export default defineConfig({
         dateStyle: 'short',
         timeStyle: 'medium',
       },
+    },
+
+    notFound: {
+      title: '页面未找到',
+      quote:
+        '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+      linkLabel: '前往首页',
+      linkText: '带我回首页'
     },
 
     docFooter: {
@@ -67,6 +75,10 @@ export default defineConfig({
     /*** 自定义配置 ***/
     visitor: {
       badgeId: 'YuHan1015.simpfun-lezi-docs',
+    },
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
     },
 
     comment: {
