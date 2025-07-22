@@ -41,7 +41,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/YuHan1015/simpfun-lezi-docs' }],
 
     footer: {
-      message: '如有转载或 CV 的请标注本站原文地址',
+      message: 'https://github.com/YuHan1015/simpfun-lezi-docs/',
       copyright: 'Copyright © 2019-present maomao',
     },
 
