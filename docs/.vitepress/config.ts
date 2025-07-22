@@ -66,14 +66,14 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'maomao1996.vitepress-nav-template',
+      badgeId: 'YuHan1015.simpfun-lezi-docs',
     },
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
+      repo: 'YuHan1015/simpfun-lezi-docs',
+      repoId: 'R_kgDOPQXPbg',
+      category: 'General',
+      categoryId: 'DIC_kwDOPQXPbs4CtRfP',
     },
   },
 
