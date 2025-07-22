@@ -3,7 +3,7 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 简幻欢的
+  name: 简幻欢
   text: 乐子文档
   tagline: 收录各种简幻欢中的乐子行为
   image:
