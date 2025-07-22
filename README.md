@@ -17,6 +17,8 @@
 
 bro 去 issue 里面提交吧 别 pr 了
 
+当然你如果选择pr我也不拦你(顺便还帮我省了点时间去整理)
+
 ##### 📝 许可证
 
 本项目基于 MIT 开源
@@ -27,4 +29,4 @@ bro 去 issue 里面提交吧 别 pr 了
 
 #### 说明
 
-版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+该导航模板来自<https://github.com/maomao1996> 版权声明：<https://github.com/maomao1996/vitepress-nav-template>
