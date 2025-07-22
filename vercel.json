@@ -1,6 +1,7 @@
 {
-  "buildCommand": "npm run docs:build",
-  "outputDirectory": "docs/.vuepress/dist",
-  "installCommand": "npm install",
-  "framework": null
+  "git": {
+    "deploymentEnabled": {
+      "gh-pages": false
+    }
+  }
 }
