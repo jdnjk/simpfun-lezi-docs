@@ -11,7 +11,7 @@
 
 ##### 🚀 查看乐子
 
-[bro 点击这里可以跳转官网](https://lezi.simpfun.lol)
+[bro 点击这里可以直接飞到乐子导航](https://lezi.simpfun.lol)
 
 ##### 🤝 提交新乐子
 
