@@ -53,6 +53,14 @@ export default defineConfig({
       },
     },
 
+    notFound: {
+      title: '页面未找到',
+      quote:
+        '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+      linkLabel: '前往首页',
+      linkText: '带我回首页'
+    },
+
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
@@ -67,6 +75,10 @@ export default defineConfig({
     /*** 自定义配置 ***/
     visitor: {
       badgeId: 'maomao1996.vitepress-nav-template',
+    },
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
     },
 
     comment: {
