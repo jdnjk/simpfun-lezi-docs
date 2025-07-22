@@ -24,6 +24,11 @@ features:
     details: 顶级助攻，不接受反驳
     link: /article/炸天帮孙悟空传.html
     linkText: 点击阅读
+  - icon: 😀
+    title: XeCraft 服务器传（凌天传）
+    details: 还不是因为我太强了，嫉妒我牛逼
+    link: https://lezi.8aka.org/article/XeCraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BC%A0%EF%BC%88%E5%87%8C%E5%A4%A9%E4%BC%A0%EF%BC%89
+    linkText: 点击阅读
 ---
 
 <style>

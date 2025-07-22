@@ -15,6 +15,12 @@ export const NAV_DATA: NavData[] = [
         desc: '顶级助攻',
         link: '/article/炸天帮孙悟空传.html',
       },
+      {
+        icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
+        title: 'XeCraft 服务器传（凌天传）',
+        desc: '还不是因为我太强了，嫉妒我牛逼',
+        link: 'https://lezi.8aka.org/article/XeCraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BC%A0%EF%BC%88%E5%87%8C%E5%A4%A9%E4%BC%A0%EF%BC%89',
+      },
     ],
   },
 ]
