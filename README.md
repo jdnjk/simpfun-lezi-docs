@@ -29,4 +29,4 @@ bro 去 issue 里面提交吧 别 pr 了
 
 #### 说明
 
-该导航模板来自<https://github.com/maomao1996> 版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+该导航模板来自[maomao](https://github.com/maomao1996) 版权声明：<https://github.com/maomao1996/vitepress-nav-template>
