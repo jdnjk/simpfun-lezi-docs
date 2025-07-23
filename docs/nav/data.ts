@@ -23,11 +23,6 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: '短篇',
-    items: [
-    ],
-  },
     {
     title: '其他',
     items: [
