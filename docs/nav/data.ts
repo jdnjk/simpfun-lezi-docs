@@ -12,9 +12,25 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://www.emojiall.com/images/240/google/15.1/1f913.png',
         title: '炸天帮孙悟空传',
-        desc: '顶级助攻',
-        link: '/article/炸天帮孙悟空传.html',
+        desc: '恶心你咋了，恶心的就是你',
+        link: '/article/炸天帮孙悟空传',
       },
+      {
+        icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
+        title: '[狗叫报社]佚鸣传',
+        desc: '严厉抵制青云宗对云杉木的攻击',
+        link: '/article/佚鸣传',
+      },
+    ],
+  },
+  {
+    title: '短篇',
+    items: [
+    ],
+  },
+    {
+    title: '其他',
+    items: [
       {
         icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
         title: 'XeCraft 服务器传（凌天传）',
