@@ -23,6 +23,17 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+      {
+    title: '简幻欢',
+    items: [
+      {
+        icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
+        title: 'SuperStone传',
+        desc: 'bat转sh',
+        link: '/article/superstone传.html',
+      },
+    ],
+  },
     {
     title: '其他',
     items: [
