@@ -29,6 +29,11 @@ features:
     details: 严厉抵制青云宗对云杉木的攻击
     link: /article/佚鸣传
     linkText: 点击阅读
+  - icon: 📖
+    title: SuperStone传
+    details: bat转sh
+    link: /article/superstone传
+    linkText: 点击阅读
   - icon: 😀
     title: XeCraft 服务器传（凌天传）
     details: 还不是因为我太强了，嫉妒我牛逼
