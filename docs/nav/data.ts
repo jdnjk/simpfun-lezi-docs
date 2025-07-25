@@ -35,13 +35,24 @@ export const NAV_DATA: NavData[] = [
     ],
   },
     {
-    title: '其他',
+    title: '乐子',
     items: [
       {
         icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
         title: 'XeCraft 服务器传（凌天传）',
         desc: '还不是因为我太强了，嫉妒我牛逼',
         link: 'https://lezi.8aka.org/article/XeCraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BC%A0%EF%BC%88%E5%87%8C%E5%A4%A9%E4%BC%A0%EF%BC%89',
+      },
+    ],
+  },
+  {
+    title: '简幻欢',
+    items: [
+      {
+        icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
+        title: '海边战士传',
+        desc: '显着你了？',
+        link: '/article/海边战士传.html',
       },
     ],
   },
