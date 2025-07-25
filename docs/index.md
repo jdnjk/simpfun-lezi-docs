@@ -39,7 +39,7 @@ features:
     details: 还不是因为我太强了，嫉妒我牛逼
     link: https://lezi.8aka.org/article/XeCraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BC%A0%EF%BC%88%E5%87%8C%E5%A4%A9%E4%BC%A0%EF%BC%89
     linkText: 点击阅读
-    icon: 📖
+  - icon: 📖
     title: 海边战士传
     details: "显着你了？"
     link: /article/海边战士传
