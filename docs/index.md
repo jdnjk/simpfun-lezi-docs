@@ -44,6 +44,11 @@ features:
     details: "显着你了？"
     link: /article/海边战士传
     linkText: 点击阅读
+  - icon: 📖
+    title: DiamondEgg传
+    details: "招技术~要倒贴钱给我的那种~"
+    link: /article/DiamondEgg传
+    linkText: 点击阅读
 ---
 
 <style>

@@ -56,4 +56,15 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  {
+    title: '简幻欢',
+    items: [
+      {
+        icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
+        title: 'DiamondEgg传',
+        desc: '招技术~要倒贴钱给我的那种~',
+        link: '/article/DiamondEgg传.html',
+      },
+    ],
+  },
 ]
