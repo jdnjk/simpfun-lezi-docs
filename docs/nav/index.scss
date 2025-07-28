@@ -17,10 +17,29 @@
     max-width: 224px;
   }
 
+  /* 导航描述样式 */
+  .nav-description {
+    margin: 1.5rem 0 2rem 0;
+    padding: 1rem 1.5rem;
+    background: var(--vp-c-bg-soft);
+    border-radius: 8px;
+    border-left: 4px solid var(--vp-c-brand-1);
+    
+    p {
+      margin: 0;
+      color: var(--vp-c-text-2);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  }
+
   /* custom-block */
   .custom-block {
+    border-radius: 8px;
+    
     .custom-block-title {
       font-size: var(--vp-custom-block-font-size);
+      font-weight: 600;
     }
     ul {
       margin: 8px 0;
@@ -30,7 +49,37 @@
     }
   }
 
+  .vp-doc h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .vp-doc h2 {
-    margin-top: 24px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--vp-c-divider);
+    padding-bottom: 0.5rem;
+  }
+
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .nav-description {
+      margin: 1rem 0 1.5rem 0;
+      padding: 0.75rem 1rem;
+    }
+    
+    .vp-doc h1 {
+      font-size: 1.75rem;
+    }
+    
+    .vp-doc h2 {
+      font-size: 1.25rem;
+      margin-top: 1.5rem;
+    }
   }
 }
