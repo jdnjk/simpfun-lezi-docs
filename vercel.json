@@ -3,11 +3,5 @@
     "deploymentEnabled": {
       "gh-pages": false
     }
-  },
-  "rewrites": [
-    {
-      "source": "/((?!assets|icons|_).*)",
-      "destination": "/index.html"
-    }
-  ]
+  }
 }
