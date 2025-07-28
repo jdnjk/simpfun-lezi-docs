@@ -42,7 +42,7 @@ features:
   - icon: 🌊
     title: 海边战士传
     details: "显着你了？"
-    link: /article/海边战士传
+    link: /article/海边战士传/
     linkText: 📖 阅读传记
   - icon: 💎
     title: DiamondEgg传
