@@ -49,6 +49,11 @@ features:
     details: "招技术~要倒贴钱给我的那种~"
     link: /article/DiamondEgg传
     linkText: 点击阅读
+  - icon: 📖
+    title: 传奇顶嘴杠精王传
+    details: "给我看就是对牛弹琴~"
+    link: /article/传奇顶嘴杠精王传
+    linkText: 点击阅读
 ---
 
 <style>

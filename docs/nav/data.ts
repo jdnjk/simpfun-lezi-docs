@@ -67,4 +67,15 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
+  {
+    title: '简幻欢',
+    items: [
+      {
+        icon: 'https://www.emojiall.com/images/240/google/15.1/1f92a.png',
+        title: '传奇顶嘴杠精王传',
+        desc: '给我看就是对牛弹琴~',
+        link: '/article/传奇顶嘴杠精王传.html',
+      },
+    ],
+  },
 ]
