@@ -8,7 +8,7 @@ const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
   outDir: '../dist',
-  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
+  base: process.env.VERCEL ? '/' : (APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/'),
 
   lang: 'zh-CN',
   title: '简幻欢乐子文档',
