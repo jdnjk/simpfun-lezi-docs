@@ -48,53 +48,57 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
 }
 
 .modal-content {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  max-width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  max-width: 420px;
   width: 90%;
   position: relative;
-  color: white;
+  color: #2c3e50;
   overflow: hidden;
+  border: 1px solid rgba(62, 175, 124, 0.2);
 }
 
 .modal-header {
-  padding: 24px 24px 16px;
+  padding: 32px 24px 20px;
   text-align: center;
   position: relative;
+  background: linear-gradient(135deg, #f8fffe 0%, #f0fdf9 100%);
+  border-bottom: 1px solid rgba(62, 175, 124, 0.1);
 }
 
 .modal-header h2 {
   margin: 0 0 8px;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a202c;
+  letter-spacing: 0.5px;
 }
 
 .auth-text {
   margin: 0;
-  font-size: 14px;
-  opacity: 0.9;
-  font-style: italic;
+  font-size: 13px;
+  color: #3eaf7c;
+  font-weight: 500;
 }
 
 .close-btn {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 12px;
+  right: 12px;
   background: none;
   border: none;
-  color: white;
-  font-size: 28px;
+  color: #64748b;
+  font-size: 24px;
   cursor: pointer;
   width: 32px;
   height: 32px;
@@ -102,22 +106,25 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: background-color 0.2s;
+  transition: all 0.2s ease;
 }
 
 .close-btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(248, 113, 113, 0.1);
+  color: #ef4444;
 }
 
 .modal-body {
-  padding: 0 24px 24px;
+  padding: 24px;
   text-align: center;
+  background: #ffffff;
 }
 
 .modal-body p {
-  margin: 0 0 20px;
-  font-size: 16px;
-  opacity: 0.95;
+  margin: 0 0 24px;
+  font-size: 15px;
+  color: #4a5568;
+  line-height: 1.6;
 }
 
 .modal-actions {
@@ -127,40 +134,44 @@ onMounted(() => {
 }
 
 .enter-btn {
-  background: #ff6b6b;
+  background: linear-gradient(135deg, #3eaf7c 0%, #2d8659 100%);
   color: white;
-  padding: 12px 24px;
+  padding: 12px 28px;
   border: none;
   border-radius: 8px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+  box-shadow: 0 4px 12px rgba(62, 175, 124, 0.3);
+  letter-spacing: 0.3px;
 }
 
 .enter-btn:hover {
-  background: #ff5252;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.6);
+  background: linear-gradient(135deg, #2d8659 0%, #236b47 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(62, 175, 124, 0.4);
 }
 
 .later-btn {
   background: transparent;
-  color: white;
-  padding: 12px 24px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #64748b;
+  padding: 12px 28px;
+  border: 1.5px solid #e2e8f0;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+  letter-spacing: 0.3px;
 }
 
 .later-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.8);
+  background: #f8fafc;
+  border-color: #cbd5e0;
+  color: #4a5568;
 }
 
 /* 响应式设计 */
