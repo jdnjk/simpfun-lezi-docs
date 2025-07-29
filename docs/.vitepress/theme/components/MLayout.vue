@@ -8,7 +8,7 @@ import { usePageId } from '../composables'
 
 import MNavVisitor from './MNavVisitor.vue'
 import MDocFooter from './MDocFooter.vue'
-import WelcomeModal from './WelcomeModal.vue'
+//import WelcomeModal from './WelcomeModal.vue'
 
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
